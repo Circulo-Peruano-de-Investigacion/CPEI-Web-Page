@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = APP_URL;
+	public $baseURL = 'http://test.circuloperuanodeinvestigacion.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
