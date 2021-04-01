@@ -105,7 +105,72 @@
 </div>
 <br>
 
-<!--BOTON VER MÁS-->
-<div class="boton-vermas">
-  <a class="btn btn-primary" role="button">VER MÁS</a>
+<!-- Parte 3 -->
+
+<!-- Nuestar Investigaciones -->
+
+<!-- Aliados Estratégicos -->
+
+<div class="aliados">
+  <h1>Aliados Estratégicos</h1>
+  <div class="aliados-subra">
+    <img src="public/SVG/Formaliados.svg" alt="formali">
+  </div>
+  
+  <div class="imagenes-container">
+    <div class="aliados-img">
+      <img src="public/img/trans.png" alt="trans">
+    </div>
+
+    <div class="aliados-img">
+      <img src="public/img/trans.png" alt="trans">
+    </div>
+  </div>
+
+</div>
+
+<!-- Directiva General -->
+
+<div class="direc">
+  <div class="direc-tit">
+
+    <div class="direc-lineder">
+      <img src="public/SVG/Formadirec.svg" alt="formdirder">
+    </div>
+
+    <div class="tit">Directiva General</div>
+
+    <div class="direc-lineizq">
+      <img src="public/SVG/Formadirec.svg" alt="formdirizq">
+    </div>
+
+  </div>
+
+  <div class="container-directores">
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+  </div>
+
 </div>
