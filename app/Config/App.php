@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = BASESEURL;
+	public $baseURL = APP_URL;
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -447,4 +447,3 @@ class App extends BaseConfig
 	public $CSPEnabled = false;
 }
 
- define('BASESEURL',$_SERVER['HTTP_HOST']);
