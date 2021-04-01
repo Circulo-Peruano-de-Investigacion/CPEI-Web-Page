@@ -446,16 +446,5 @@ class App extends BaseConfig
 	 */
 	public $CSPEnabled = false;
 }
-if ( (! empty($_SERVER['REQUEST_SCHEME']) && $_SERVER['REQUEST_SCHEME'] == 'https') ||
-     (! empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ||
-     (! empty($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == '443') ) {
-    $protocole = 'https://';
-} else {
-    $protocole = 'http://';
-}
 
-$host = $_SERVER['HTTP_HOST'] . '/';
-$project = explode('/', $_SERVER['REQUEST_URI']);
-$baseurl = $protocole . $host . $project[1];
-$myappBaseUrl = $baseurl.'/';
-defined('BASESEURL') || define('BASESEURL',$myappBaseUrl);
+ define('BASESEURL',$_SERVER['HTTP_HOST']);
