@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/CPEI-Web-Page/';
+	public $baseURL = 'http://test.circuloperuanodeinvestigacion.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -36,7 +36,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $indexPage = 'index.php';
+	public $indexPage = '';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -446,3 +446,4 @@ class App extends BaseConfig
 	 */
 	public $CSPEnabled = false;
 }
+

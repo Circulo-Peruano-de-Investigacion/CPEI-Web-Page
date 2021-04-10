@@ -1,0 +1,15 @@
+language: php
+php:
+- 7.4
+before_script:
+- curl -s https://getcomposer.org/installer | php
+- php composer.phar install --dev
+script:
+- echo "skipping tests"
+deploy:
+  provider: heroku
+  api_key:
+    secure: JhR5Rw3BbJolAsKu9k6z1AH1iOdk2G4wtj1NJXMC7ZG8yyLI9cXxmCDSuxe6MziF831gCay4jBSnJ9zqUmqu2gs3+gPpRUtdNIktDIDngfjqHWnuF0mulOKZBi+vErNMk54GaSlWaG3yaiiEaHd526T7Tj617yiRdiEC9uYB21tLqTbVl4OZGnK3cKBjDYAAXHcMOdV2KO6KAFy8L0z+xS1sncH+XRyEP7gWfzSL+cvQtO4RFoZ2Rfh9rvkzPlSg4oBoLI/ekc10rnoCMM4xcG861TY24J8FbKgW5NllHaAxcWQL9ATXcUNouQvz7c853OazxN4y9xi2VeX1luW7vY0ISoqXluWEsklSif+60g2fM2/Zldr2EjIl0EnbKf0koUfvXMk2ppEBgiZg6wSfR2YSJ6rpWg/gHHKvt3CMpMIw7P1PqyyVBVir/NYB0ZF9Wv9qV6HCwBszQAXNXw6bJefrOGNkbR0+tVe+frgWXgp33ozncVrpnoPocH67huQrBp26MW8X+cmpL4wgvCd47S7Qb2+GnuYS9ZdtpKZd6kZ1wYZHQjc19+7uv6jadpfoVho1DP6kVBmEBEstqMCYYtjnhEyiIoTzM1V7LkrZoTGqHZ94oANUblEyPrOO8F3Tu1yo6cVitpM6MN9rSC20zglPhw2QQNjoUkw4XX8FIDU=
+  app:
+    master: cpei
+    develop: cpei-test

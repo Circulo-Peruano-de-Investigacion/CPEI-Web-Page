@@ -53,3 +53,124 @@
     <img src="public/img/Logo-1.png" alt="logo-1">
   </div>
 </div>
+<br>
+
+<!--Parte 2 de pantalla inicio-->
+<div class="subtitulo">
+  <div class="fondoGris">
+    <img src="public/SVG/part2-gris.svg" alt="forma-subtitulo">
+  </div>
+
+  <div class="cpeiPub">
+    <img src="public/SVG/cpeiPublicaciones.svg" alt="cpei-publicaciones">
+  </div>
+
+</div>
+
+<br><br>
+<div class="cuerpo">
+  <div class="bluesky">
+    <img  src="public/SVG/bluesky.svg" alt="forma-cuerpo">
+    <!--<img class="forma-cuerpo2" src="public/SVG/bluesky.svg" alt="forma-cuerpo">-->
+  </div>
+
+  <div class="gridm">
+    <div class="grid2">
+      <div>
+        <img src="public/img/imgPrueba.png" alt="imgPrueba">
+      </div>
+
+      <div>
+        <video alt="prueba" poster="public/img/poster.png" controls>
+          <source src="public/videos/prueba.mp4" type="video/mp4"/>
+        </video>
+      </div>
+    
+      <div>
+        <video alt="prueba" poster="public/img/poster.png" controls >
+          <source src="public/videos/prueba.mp4" type="video/mp4"/>
+        </video>
+      </div>
+
+      <div>
+        <img src="public/img/imgPrueba.png" alt="imgPrueba">
+      </div>
+    </div>
+  
+    <div class="container">
+      <img class="infografia" src="public/img/Infografia.png" alt="Infografia">
+    </div>
+
+  </div>
+</div>
+<br>
+
+<!-- Parte 3 -->
+
+<!-- Nuestar Investigaciones -->
+
+<!-- Aliados Estratégicos -->
+
+<div class="aliados">
+  <h1>Aliados Estratégicos</h1>
+  <div class="aliados-subra">
+    <img src="public/SVG/Formaliados.svg" alt="formali">
+  </div>
+  
+  <div class="imagenes-container">
+    <div class="aliados-img">
+      <img src="public/img/trans.png" alt="trans">
+    </div>
+
+    <div class="aliados-img">
+      <img src="public/img/trans.png" alt="trans">
+    </div>
+  </div>
+
+</div>
+
+<!-- Directiva General -->
+
+<div class="direc">
+  <div class="direc-tit">
+
+    <div class="direc-lineder">
+      <img src="public/SVG/Formadirec.svg" alt="formdirder">
+    </div>
+
+    <div class="tit">Directiva General</div>
+
+    <div class="direc-lineizq">
+      <img src="public/SVG/Formadirec.svg" alt="formdirizq">
+    </div>
+
+  </div>
+
+  <div class="container-directores">
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+    <div class="card-director">
+      <img src="public/SVG/Circulitodirec.svg" alt="direc">
+      <h1>Lorem Ipsum</h1>
+      <p>Cargo CPEI</p>
+      <p>Universidad Universidad</p>
+    </div>
+  </div>
+
+</div>
