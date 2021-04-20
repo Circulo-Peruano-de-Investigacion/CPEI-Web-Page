@@ -15,3 +15,10 @@ Se creó el Archivo NosotrosController
 Se redirección a pestaña Nosotros, a traves de los Routes
 Se creó file conocenos.svg y form2.svg
 En inicio.php de Nosotros, se añadio las imagines y el Titulo.
+
+--Nosotros--
+17/03/2021:Yvan Gómez
+Se subio imagenes a la carpeta public/img sobre cada una de las areas que posee el CPEI.
+Se aumento un css llamado card.css, para el manejo de como se va a visualizar las areas en la seccion Nosotros.
+Se implemento en inicio.php las card con imagenes de las areas con animación Flip.
+Se realizo el footer.

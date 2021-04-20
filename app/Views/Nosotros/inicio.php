@@ -23,7 +23,171 @@
 <br>
 <br>
 <div>
-    <img src="public/SVG/mision.svg" alt="mision1">
+    <img src="public/SVG/misionvision.svg" alt="misionvision1">
 </div>
-    
+<br>
+<br>
+<div>
+  <img src="public/SVG/organigrama.svg" alt="orgranigrama-1" >
+</div>
+<section class="cards">
+  <div class="flipCard"> 
+    <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <div class="side front">
+        <img src="public/img/direccionambiental.png" style="width: 279px;height: 401px;">
+      </div> 
+      <div class="side back" style="background-color: white;">
+          <h1>John Doe</h1> 
+          <p>Architect & Engineer</p> 
+          <p>We love that guy</p>
+      </div> 
+    </div> 
+  </div> 
 
+  <div class="flipCard"> 
+    <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <div class="side front">
+        <img src="public/img/direccionsocial.png" style="width: 279px;height: 401px;">
+      </div> 
+      <div class="side back" style="background-color: white;">
+          <h1>John Doe</h1> 
+          <p>Architect & Engineer</p> 
+          <p>We love that guy</p>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="flipCard"> 
+    <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <div class="side front" >
+        <img src="public/img/direcciondesarrollourbano.png" style="width: 279px;height: 401px;">
+      </div> 
+      <div class="side back" style="background-color: white;">
+          <h1>John Doe</h1> 
+          <p>Architect & Engineer</p> 
+          <p>We love that guy</p>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="flipCard"> 
+    <div class="card" onclick="this.classList.toggle('flipped');"> 
+      <div class="side front">
+        <img src="public/img/direccionpolitica.png" style="width: 279px;height: 401px;">
+      </div> 
+      <div class="side back" style="background-color: white;"> 
+          <h1>John Doe</h1> 
+          <p>Architect & Engineer</p> 
+          <p>We love that guy</p>
+      </div> 
+    </div> 
+  </div> 
+</section>
+
+<section class="cards">
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/direccioneconomica.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/areaadministracion.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/areacomunicacion.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/areadiseño.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+</section>
+
+<section class="cards">
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/areapsicologia.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/areamarketing.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/arearelacionespublicas.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+
+<div class="flipCard"> 
+  <div class="card" onclick="this.classList.toggle('flipped');"> 
+    <div class="side front">
+      <img src="public/img/tecnologiasistemas.png" style="width: 279px;height: 401px;">
+    </div> 
+    <div class="side back" style="background-color: white;">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+    </div> 
+  </div> 
+</div> 
+</section>
