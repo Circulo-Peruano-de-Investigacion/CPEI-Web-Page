@@ -56,54 +56,118 @@
 <br>
 
 <!--Parte 2 de pantalla inicio-->
-<div class="subtitulo">
-  <div class="fondoGris">
-    <img src="public/SVG/part2-gris.svg" alt="forma-subtitulo">
+<section>
+  <div class="subtitulo">
+    <div class="fondoGris">
+      <img src="public/SVG/part2-gris.svg" alt="forma-subtitulo">
+    </div>
+
+    <div class="cpeiPub">
+      <img src="public/SVG/cpeiPublicaciones.svg" alt="cpei-publicaciones">
+    </div>
+
   </div>
 
-  <div class="cpeiPub">
-    <img src="public/SVG/cpeiPublicaciones.svg" alt="cpei-publicaciones">
-  </div>
+  <br><br>
+  <div class="cuerpo">
+    <div class="bluesky">
+      <img  src="public/SVG/bluesky.svg" alt="forma-cuerpo">
+      <!--<img class="forma-cuerpo2" src="public/SVG/bluesky.svg" alt="forma-cuerpo">-->
+    </div>
 
-</div>
+    <div class="gridm">
+      <div class="grid2">
+        <div>
+          <img src="public/img/imgPrueba.png" alt="imgPrueba">
+        </div>
 
-<br><br>
-<div class="cuerpo">
-  <div class="bluesky">
-    <img  src="public/SVG/bluesky.svg" alt="forma-cuerpo">
-    <!--<img class="forma-cuerpo2" src="public/SVG/bluesky.svg" alt="forma-cuerpo">-->
-  </div>
+        <div>
+          <video alt="prueba" poster="public/img/poster.png" controls>
+            <source src="public/videos/prueba.mp4" type="video/mp4"/>
+          </video>
+        </div>
+      
+        <div>
+          <video alt="prueba" poster="public/img/poster.png" controls >
+            <source src="public/videos/prueba.mp4" type="video/mp4"/>
+          </video>
+        </div>
 
-  <div class="gridm">
-    <div class="grid2">
-      <div>
-        <img src="public/img/imgPrueba.png" alt="imgPrueba">
-      </div>
-
-      <div>
-        <video alt="prueba" poster="public/img/poster.png" controls>
-          <source src="public/videos/prueba.mp4" type="video/mp4"/>
-        </video>
+        <div>
+          <img src="public/img/imgPrueba.png" alt="imgPrueba">
+        </div>
       </div>
     
-      <div>
-        <video alt="prueba" poster="public/img/poster.png" controls >
-          <source src="public/videos/prueba.mp4" type="video/mp4"/>
-        </video>
+      <div class="container">
+        <img class="infografia" src="public/img/Infografia.png" alt="Infografia">
       </div>
 
-      <div>
-        <img src="public/img/imgPrueba.png" alt="imgPrueba">
-      </div>
     </div>
-  
-    <div class="container">
-      <img class="infografia" src="public/img/Infografia.png" alt="Infografia">
-    </div>
-
   </div>
-</div>
-<br>
+</section>
+<br><br>
+
+<!--Eventos-->
+<article>
+  <section>
+    <div class="cpeiPub">
+        <img src="public/SVG/eventos.svg" alt="eventos">
+    </div>
+  </section>
+    <br>
+
+  <!-- CARRUSEL
+    Se hace uso de Owl Carousel
+  Fuente: https://owlcarousel2.github.io/OwlCarousel2/demos/basic.
+  A la carpeta public/Styles/Pages se le agrega los siguientes archivos:
+  - owl.theme.default.min.css
+  - owl.carousel.min.css
+  - style.css "esto con motivo de que las clases del index.css no afecte al estilo de este carrusel"
+
+  A la carpeta public/js se le agrega los siguientes archivos:
+  - owl.carousel.min.js
+  - main.js
+  -->
+  <section>
+    <div class="fondoNaranja">
+      <img src="public/SVG/fondoNaranja.svg" alt="forma-cuerpo">
+    </div>
+    <div class="containers">
+      <div class="owl-carousel owl-theme">
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>
+        <div class="img_box">
+          <img src="public/img/evento.png">
+        </div>   
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="public/js/owl.carousel.min.js"></script>
+    <script src="public/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </section>
+</article>
+
 
 <!-- Parte 3 -->
 

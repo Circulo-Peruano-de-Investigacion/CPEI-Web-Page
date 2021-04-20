@@ -117,11 +117,25 @@
 
 /*Estilo a botón VER MAS*/
 /* Rectangle 238 */
-.boton-vermas {
+/*.boton-vermas {
 position: absolute;
 left: 297px;
 background: #1B768E;
 border-radius: 5px;
+}/*
+
+/*------Eventos----------*/
+/*LECCION APRENDIDA:
+CABE MENCIONAR QUE SE USÓ MATERIALIZE, PERO ES INCOMPATIBLE CON BOOTSTRAP */
+
+.fondoNaranja {
+  position: absolute;
+  margin-top: 6.5%;
+  z-index: -1;
+  width: 100%;
+  height: 50%;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 /* Aliados Estratégicos */
