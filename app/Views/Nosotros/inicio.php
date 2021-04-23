@@ -23,7 +23,7 @@
 <br>
 <br>
 <div>
-    <img src="public/SVG/misionvision.svg" alt="misionvision1">
+    <img src="public/SVG/mision.svg" alt="mision1">
 </div>
 <br>
 <br>

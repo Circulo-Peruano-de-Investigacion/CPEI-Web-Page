@@ -13,23 +13,23 @@
   <div class="carousel-inner">
       
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="public/img/drogas.jpg" class="d-block w-100" alt="...">
+      <img src="public/img/convocatoria.png" class="d-block w-100" alt="...">
     </div>
 
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="public/img/espacio.jpg" class="d-block w-100" alt="...">
+      <img src="public/img/bicentenario.png" class="d-block w-100" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="public/img/drogas.jpg" class="d-block w-100" alt="...">
+      <img src="public/img/siguenos.png" class="d-block w-100" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="public/img/espacio.jpg" class="d-block w-100" alt="...">
+      <img src="public/img/convocatoria.png" class="d-block w-100" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="public/img/drogas.jpg" class="d-block w-100" alt="...">
+      <img src="public/img/bicentenario.png" class="d-block w-100" alt="...">
     </div>
 
   </div>
@@ -48,12 +48,28 @@
 
 <!-- Conócenos -->
 <div class="grid">
-  <img src="public/SVG/forma1.svg" alt="forma1"> 
-  <div class="logo-conócenos">
-    <img src="public/img/Logo-1.png" alt="logo-1">
+  <div class="contenedor1">
+    <img class="barra-cpei" src="public/SVG/forma1.svg" alt="forma1"> 
+    <div class="texto-encima">¿Quieres saber </div>
+    <br>
+    <div class="texto-encima2">más del <b>CPEI</b>?</div>
+    <div class="centrado"><a class="btn btn-primary" href="#" role="button">VER MÁS</a></div>
   </div>
+  
+  <img class="logo-cpei" src="public/img/Logo-1.png" alt="logo-1">
+
 </div>
 <br>
+
+<!-- Línea de separación -->
+
+<div class="separacion">
+  <img src="public/SVG/fig1.svg" alt="figura1"> 
+  <img src="public/SVG/fig3.svg" alt="figura2">  
+  <img src="public/SVG/fig2.svg" alt="figura3">  
+</div>
+<br>
+
 
 <!--Parte 2 de pantalla inicio-->
 <section>

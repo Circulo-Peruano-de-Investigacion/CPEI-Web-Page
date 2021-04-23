@@ -1,9 +1,13 @@
 /* Carrusel */
 
 .carousel-inner .carousel-item img {
-    height: 50em;
-    width: 100vw;
-    object-fit: cover;
+  height: 30em;
+  max-width: 100%;
+  /*width: 10em;*/
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  /*border-radius: 20px;*/
 }
 
 /* Conócenos */
@@ -11,9 +15,53 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 6em;
-  padding-bottom: 6em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
+
+
+.logo-cpei{
+  width: 200px;
+  justify-self: center;
+}
+
+.separacion{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 0em;
+  padding-bottom: 5em;
+}
+
+
+.contenedor1{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  font-size:45px;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  color: white;
+}
+
+.texto-encima2{
+  font-size:45px;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  color: white;
+}
+
+.centrado{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 .logo-conócenos {
     justify-self: center;
