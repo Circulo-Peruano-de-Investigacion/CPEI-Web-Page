@@ -11,7 +11,7 @@
   </div>
 
   <div class="carousel-inner">
-      
+   
     <div class="carousel-item active" data-bs-interval="10000">
       <img src="public/img/convocatoria.png" class="d-block w-100" alt="...">
     </div>
@@ -62,14 +62,12 @@
 <br>
 
 <!-- Línea de separación -->
-
 <div class="separacion">
   <img src="public/SVG/fig1.svg" alt="figura1"> 
   <img src="public/SVG/fig3.svg" alt="figura2">  
   <img src="public/SVG/fig2.svg" alt="figura3">  
 </div>
 <br>
-
 
 <!--Parte 2 de pantalla inicio-->
 <section>
